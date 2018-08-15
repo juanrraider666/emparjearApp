@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/gradiente"
+tools:context=".RegistroUsuario">
+
+
+
+
+<ImageView
+android:id="@+id/idlogo"
+android:layout_width="396dp"
+android:layout_height="267dp"
+app:srcCompat="@drawable/logo" />
+
+
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<android.support.design.widget.TextInputLayout
+android:layout_width="wrap_content"
+    android:id="@+id/input2"
+    app:errorEnabled="true"
+    app:counterEnabled="true"
+    app:counterMaxLength="10"
+android:textAlignment="textStart"
+android:textColorHint="@android:color/white"
+android:layout_height="match_parent">
+
+
+<EditText
+android:id="@+id/idusuario1"
+style="@style/styleedit"
+android:layout_width="396dp"
+android:layout_height="40dp"
+android:layout_marginLeft="5dp"
+android:layout_marginRight="5dp"
+android:layout_weight="1"
+    android:hint="Jugador 1"
+/>
+
+</android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:id="@+id/input"
+android:layout_width="match_parent"
+    app:errorEnabled="true"
+    app:counterEnabled="true"
+    app:counterMaxLength="10"
+android:textColorHint="@android:color/white"
+android:layout_height="wrap_content">
+
+<EditText
+android:id="@+id/idusuario2"
+style="@style/styleedit"
+android:layout_width="match_parent"
+android:layout_height="40dp"
+android:layout_marginLeft="5dp"
+android:layout_marginRight="5dp"
+android:layout_marginTop="20dp"
+android:hint="Jugador 2 "
+android:textColorHint="@android:color/white" />
+
+
+
+</android.support.design.widget.TextInputLayout>
+
+<TextView
+android:id="@+id/idvalidar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textStyle="bold" />
+
+<Button
+android:id="@+id/idingresar"
+style="@style/estyloboton"
+android:layout_width="match_parent"
+android:layout_height="69dp"
+android:layout_marginLeft="5dp"
+android:layout_marginRight="5dp"
+android:layout_marginTop="60dp"
+android:text="Registrar" />
+
+<TextView
+android:id="@+id/textView5"
+android:layout_marginTop="20dp"
+android:layout_width="match_parent"
+android:layout_height="10dp"
+android:background="@color/para_texto_segundario" />
+
+
+</LinearLayout>

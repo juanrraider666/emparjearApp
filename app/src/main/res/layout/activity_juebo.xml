@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+ android:background="@drawable/gradiente"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".Juebo">
+
+
+    <include
+        layout="@layout/imagenes"
+        android:layout_width="316dp"
+        android:layout_height="411dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/NombreJugador1"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/NombreJugador2"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="24sp"
+        android:text="Jugado"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/NombreJugador1"
+        android:layout_marginStart="58dp"
+        android:textSize="14sp"
+        android:text="P1 : 0" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/NombreJugador2"
+        android:layout_marginEnd="33dp"
+        android:textSize="14sp"
+        android:text="P2: 0" />
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#04177c</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primero">#03599c</color>
+    <color name="Segundo">#0d61b4</color>
+    <color name="primero_ligero">#32658f</color>
+    <color name="Principal">#283593</color>
+    <color name="Para_texto">#212121</color>
+    <color name="para_texto_segundario">#212121</color>
+    <color name="iconos">#FFFFFF</color>
+    <color name="division">#BDBDBD</color>
+</resources>

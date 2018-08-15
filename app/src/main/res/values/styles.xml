@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="styleedit">
+    <!-- Customize your theme here. -->
+
+    <item name="android:textColorPrimary">@color/primero_ligero</item>
+    <item name="android:background">@drawable/edit</item>
+
+</style>
+    <style name="estyloboton">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/colorboton</item>
+
+    </style>
+
+    <style name="estylobotonprincipal">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/botonesprincipales</item>
+
+    </style>
+
+    <style name="estyloelegirnivel" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+
+
+
+
+    </style>
+
+</resources>

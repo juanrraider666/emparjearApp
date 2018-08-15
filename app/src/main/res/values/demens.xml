@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">15sp</dimen>
+    <dimen name="text">12sp</dimen>
+    <dimen name="imagen">100dp</dimen>
+
+
+
+</resources>

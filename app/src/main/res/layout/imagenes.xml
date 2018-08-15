@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@drawable/gradiente"
+    android:layout_height="match_parent"
+    tools:context=".Juebo">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:weightSum="4"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:id="@+id/div11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:scaleType="centerInside"
+        android:id="@+id/div12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:id="@+id/div13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:scaleType="centerInside"
+        android:id="@+id/div14"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo" />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:id="@+id/div21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/div22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:id="@+id/div23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/div24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:id="@+id/div31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/div32"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:id="@+id/div33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/div34"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

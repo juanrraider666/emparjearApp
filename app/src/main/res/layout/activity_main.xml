@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iniciogame"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/idiniciar"
+        style="@style/estylobotonprincipal"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:text="Iniciar Juego" />
+
+    <Button
+
+        android:id="@+id/idconfiguracion"
+        style="@style/estylobotonprincipal"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="162dp"
+        android:text="Configuración" />
+
+    <Button
+        android:id="@+id/idultimospuntos"
+        style="@style/estylobotonprincipal"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="234dp"
+        android:text="Puntajes más altos" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="285dp"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/kranky"
+        android:gravity="center"
+        android:text="EMPAREJA APP"
+        android:textColor="#ffff"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+</RelativeLayout>
