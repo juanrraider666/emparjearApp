@@ -6,7 +6,7 @@
  android:background="@drawable/gradiente"
     android:padding="16dp"
     android:layout_height="match_parent"
-    tools:context=".Juebo">
+    tools:context=".Activitys.Juebo">
 
 
     <include
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:textSize="24sp"
-        android:text="Jugado"
+        android:text=""
         android:textStyle="bold" />
 
     <TextView

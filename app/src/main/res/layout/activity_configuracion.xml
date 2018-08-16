@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradiente"
-    tools:context=".Configuracion">
+    tools:context=".Activitys.Configuracion">
 
 
     <TextView
@@ -37,7 +37,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="113dp"
             android:layout_marginTop="209dp"
-            android:text="Tiempo" />
+            android:text="por tiempo" />
 
         <RadioButton
             android:id="@+id/rdnormal"

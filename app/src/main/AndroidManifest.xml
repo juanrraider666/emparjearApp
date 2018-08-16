@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Activitys.MainActivity" />
         <activity
-            android:name=".Splash"
+            android:name=".Activitys.Splash"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,18 +21,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistroUsuario" />
+        <activity android:name=".Activitys.RegistroUsuario" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".Elegir_nivel"
+            android:name=".Activitys.Elegir_nivel"
             android:theme="@style/estyloelegirnivel" />
-        <activity android:name=".Juebo" />
-        <activity android:name=".Temporizacion" />
-        <activity android:name=".Configuracion"/>
+        <activity android:name=".Activitys.Juebo" />
+        <activity android:name=".Activitys.Temporizacion" />
+        <activity android:name=".Activitys.Configuracion"/>
     </application>
 
 </manifest>

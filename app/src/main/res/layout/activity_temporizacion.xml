@@ -6,7 +6,7 @@
 
     android:background="@drawable/gradiente"
     android:layout_height="match_parent"
-    tools:context=".Temporizacion">
+    tools:context=".Activitys.Temporizacion">
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

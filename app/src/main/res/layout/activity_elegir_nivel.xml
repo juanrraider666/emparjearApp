@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="@drawable/gradiente"
     android:layout_height="match_parent"
-    tools:context=".Elegir_nivel">
+    tools:context=".Activitys.Elegir_nivel">
 
     <Button
         android:id="@+id/idfacil"
