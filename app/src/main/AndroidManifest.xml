@@ -32,7 +32,8 @@
             android:theme="@style/estyloelegirnivel" />
         <activity android:name=".Activitys.Juebo" />
         <activity android:name=".Activitys.Temporizacion" />
-        <activity android:name=".Activitys.Configuracion"/>
+        <activity android:name=".Activitys.Configuracion" />
+        <activity android:name=".Activitys.Solo"/>
     </application>
 
 </manifest>
